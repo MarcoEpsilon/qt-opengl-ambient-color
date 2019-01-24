@@ -1,0 +1,16 @@
+/*水平槽 */
+QSlider::groove:horizontal {
+    height:6px;
+    border-radius:2px;
+    background-color:rgba(83,134,139,120);
+}
+QSlider::handle:horizontal {
+    width:16px;
+    height:16px;
+    background-color:rgba(139,123,123,255);
+    margin:-5px 0px;
+    border-radius:8px;
+}
+QSlider::sub-page:horizontal {
+    background-color:red;
+}

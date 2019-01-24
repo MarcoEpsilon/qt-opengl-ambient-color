@@ -1,0 +1,16 @@
+/*水平滑块 */
+QSlider::groove:horizontal {
+    height:6px;
+    background-color:rgba(83,134,139,120);
+    border:2px;
+}
+QSlider::handle:horizontal {
+    height:16px;
+    width:16px;
+    border-radius:8px;
+    margin:-5px 0px;
+    background-color:rgba(139,123,123,255);;
+}
+QSlider::sub-page:horizontal {
+    background-color:green;
+}
